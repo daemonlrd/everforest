@@ -1239,6 +1239,12 @@ call everforest#highlight('LightspeedPendingOpArea', s:palette.bg0, s:palette.gr
 highlight! link LightspeedMaskedChar Purple
 highlight! link LightspeedGreyWash Grey
 " }}}
+" goolord/alpha-nvim {{{
+call everforest#highlight('AlphaButtons', s:palette.green, s:palette.none, 'bold')
+call everforest#highlight('AlphaShortcut', s:palette.orange, s:palette.none, 'bold')
+call everforest#highlight('Type', s:palette.fg, s:palette.none, 'bold')
+call everforest#highlight('AlphaHeader', s:palette.aqua, s:palette.none, 'bold')
+" }}}
 endif
 " }}}
 " Extended File Types: {{{
